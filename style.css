@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100&display=swap');
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+body,
+header,
+section,
+.media-object,
+.cards-container {
+    display:flex;
+        justify-content: center;
+}
+
+header,
+.top-section,
+footer {
+    background-color: #1F2937;
+}
+
+header,
+.top-section,
+.sign-up-section,
+footer {
+    color:#F9FAF8;
+}
+
+header {
+    justify-content: space-around;
+    align-content: center;
+    padding: 1em 0;
+}
+
+section{
+    padding:5em;
+}
+
+.right{
+    display:flex;
+    align-content: center;
+    padding:6px; /*WHAT THE FUCK WHY WON THIS CENTER VERTICALLY*/
+    gap:20px;
+}
+
+.right a,
+footer p{
+    font-weight: 50;
+    font-size: 20px
+}
+
+.left{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.top-section{
+    /*padding: 2em;*/
+}
+
+.media-object{
+    width:80em;
+}
+
+.media-content{
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+h2{
+    margin:auto;
+}
+
+.hero{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.media-content p{
+    font-size: 25px;
+}
+
+.media-content button{
+    border-style: none;
+    padding: 0.25em 1em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-section{
+    flex-direction: column;
+}
+
+.card-section h2 {
+    padding:1em;
+    font-size: 3em;
+}
+
+.cards-container{
+    gap:3em;
+}
+
+.card{
+    width: 300px;
+    height: auto;
+
+}
+
+.card img{
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: #3882F6;
+}
+
+.quote-section{
+    box-sizing: border-box;
+    background-color: #E5E7EB;
+}
+
+.quote-section .quote{
+    font-size: 2em;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-section .author{
+    font-style: 900;
+    text-align: right;
+}
+
+.quote-container{
+    width:60em;
+}
+
+.sign-up-container,
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color:#F9FAF8;
+}
+
+.sign-up-container button{
+    border-style: solid;
+    border-color:white;
+    font-size: large;
+    padding: 0.25em 1.25em;
+}
+
+.sign-up-container{
+    box-sizing: border-box;
+    width:80em;
+    align-content: center;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding:3em 15em;
+}
+
+.sign-up-container h2 {
+    margin: auto;
+}
+
+.sign-up-container p{
+    font-size: 1.25em;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+}
